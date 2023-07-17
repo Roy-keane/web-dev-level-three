@@ -1,0 +1,52 @@
+.container{
+    
+    background:linear-gradient(.5turn,rgba(0, 0, 0, 0.628), rgb(69, 225, 157));
+    height: 80vh;
+    width:100%; 
+    display: flex;
+    align-items: center;
+    
+    justify-content:space-evenly;
+    h1{
+        position: relative;
+        top:-250px;
+        left: 500px;
+        color: rgba(0, 21, 255, 0.891);
+    
+    }
+    .inputs{
+        border-radius: 20px;
+        padding-top: 25px;
+        width: 30%;
+        border: .5px solid rgb(214, 203, 203);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(0.25turn, #1aa3dd, #f8f5e1, #3cb5f6);
+        
+        input{
+            outline: none;
+            justify-content: space-around;
+            border-style: none;
+            border-radius: 25px;
+            width: 60%;
+            height: 40px;
+    
+    
+}
+
+    }
+    .output   {
+        padding-left: 20px;
+        height: 70%;
+        border-radius: 20px;
+        display: flex;
+        align-items:normal;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 59px;
+        width: 30%;
+        max-width: 20%;
+        background: linear-gradient(0.25turn, #1aa3dd, #f8f5e1, #3cb5f6);
+    }
+}

@@ -1,22 +1,22 @@
 <div class="container">
   <h1>C V</h1>
   <div class="inputs">
-  <input type="text" placeholder=" ENTER NAME">
-  <input type="text" placeholder=" ENTER YOUR ADRESS">
-  <input type="text" placeholder=" ENTER EMAIL">
-  <input type="text" placeholder="PHONE NUMBER">
-  <input type="text" placeholder="SKILL">
-  <input type="text" placeholder="'HOBBIES">
-  <input type="text" placeholder="PAST ECPERIENCE">
+  <input [(ngModel)]="name" type="text" placeholder=" ENTER NAME"><br>
+  <input [(ngModel)]="address" type="text" placeholder=" ENTER YOUR ADRESS"><br>
+  <input [(ngModel)]="email" type="email" placeholder=" ENTER EMAIL"><br>
+  <input [(ngModel)]="phone" type="text" placeholder="PHONE NUMBER"><br>
+  <input [(ngModel)]="skills" type="text" placeholder="SKILL"><br>
+  <input [(ngModel)]="hobbies"type="text" placeholder="'HOBBIES"><br>
+  <input [(ngModel)]="pastexp" type="text" placeholder="PAST EXPERIENCE"><br>
   </div>
   <div class="output">
-    <label for="">NAME:</label>
-    <label for="">ADRESS</label>
-    <label for="">EMAIL</label>
-    <label for="">PHONE NUMBER</label>
-    <label for="">SKILL</label>
-    <label for="">HOBBIES</label>
-    <label for="">PAST-EXPERRIENCE</label>
+    <label for="">NAME:{{name}}</label>
+    <label for="">ADRESS:{{address}}</label>
+    <label for="">EMAIL:{{email}}</label>
+    <label for="">PHONE NUMBER:{{phone}}</label>
+    <label for="">SKILLs:{{skills}}</label>
+    <label for="">HOBBIES:{{hobbies}}</label>
+    <label for="">PAST-EXPERRIENCE:{{pastexp}}</label>
   </div>
 
 </div>

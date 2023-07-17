@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'showcase';
+  name:string = "";
+  address:string = "";
+  email:string = "";
+  phone:string = "";
+  skills:string = "";
+  hobbies:string = "";
+  pastexp:string = "";
 }
